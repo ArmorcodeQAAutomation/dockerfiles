@@ -2,7 +2,7 @@
 # Dockerfile for airflow
 #
 
-FROM python:3.8-alpine
+FROM python:3.12.3-alpine
 
 ENV AIRFLOW_VERSION=1.10.11
 ENV AIRFLOW_EXTRAS=async,all_dbs,celery,crypto,devel_hadoop,jdbc,ldap,password,redis,s3,samba,ssh,statsd
