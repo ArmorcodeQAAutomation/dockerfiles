@@ -2,7 +2,7 @@
 # Dockerfile for cronicle
 #
 
-FROM node:lts-alpine
+FROM node:20.14.0-alpine3.20
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
