@@ -2,7 +2,7 @@
 # Dockerfile for editly
 #
 
-FROM node:lts-bullseye
+FROM node:20.15-bullseye
 MAINTAINER EasyPi Software Foundation
 
 ARG EDITLY_VERSION=0.14.2
