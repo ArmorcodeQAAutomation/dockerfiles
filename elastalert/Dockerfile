@@ -2,7 +2,7 @@
 # Dockerfile for elastalert
 #
 
-FROM python:3-alpine
+FROM python:3.13.0a1-alpine
 
 ENV ELASTALERT_VERSION=0.2.4
 ENV ELASTALERT_HOME=/opt/elastalert
