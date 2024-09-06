@@ -2,7 +2,7 @@
 # Dockerfile for youtube-dl
 #
 
-FROM python:3-alpine
+FROM python:3.13.0a1-alpine
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
