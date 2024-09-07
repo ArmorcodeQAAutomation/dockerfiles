@@ -2,7 +2,7 @@
 # Dockerfile for hubot
 #
 
-FROM alpine:3.16
+FROM alpine:3.19.4
 MAINTAINER EasyPi Software Foundation
 
 ENV HUBOT_NAME=Hubot
