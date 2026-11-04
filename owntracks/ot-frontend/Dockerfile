@@ -9,7 +9,7 @@ RUN yarn install
 RUN yarn build
 
 
-FROM nginx:alpine
+FROM nginx:1.31.8-alpine3.24
 MAINTAINER EasyPi Software Foundation
 
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
