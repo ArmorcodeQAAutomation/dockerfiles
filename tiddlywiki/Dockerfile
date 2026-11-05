@@ -2,7 +2,7 @@
 # Dockerfile for tiddlywiki
 #
 
-FROM node:alpine
+FROM node:26.13.0-alpine3.24
 MAINTAINER EasyPi Software Foundation
 
 RUN npm install -g tiddlywiki
