@@ -2,7 +2,7 @@
 # Dockerfile for AriaNg
 #
 
-FROM nginx:alpine
+FROM nginx:1.31.8-alpine3.24
 MAINTAINER EasyPi Software Foundation
 
 ARG ARIA_NG_VERSION=1.2.4
