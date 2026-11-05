@@ -2,7 +2,7 @@
 # Dockerfile for slacker
 #
 
-FROM python:3.9-alpine
+FROM python:3.15.2-alpine
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
