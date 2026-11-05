@@ -10,6 +10,6 @@ RUN set -xe \
  && npm install \
  && npm run build
 
-FROM nginx:alpine
+FROM nginx:1.31.8-alpine3.24
 MAINTAINER EasyPi Software Foundation
 COPY --from build /app/public/* /usr/share/nginx/html
